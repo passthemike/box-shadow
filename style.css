@@ -18,7 +18,24 @@ html, body {
   /*to add a shadow on the inside of the box, all you have to do is add "inset" (inner shadow). If you want the shadow on the outside and on the inside, all you have to do is copy and paste the same 4 values and for one of them you will add "inset" in front of those values. These need to be added into 1 value. All you need to do is add a comma inbetween the 4 values. */
 }
 
+
+/*Rounded Corners Example*/
 .box-b {
+  text-align: center;
+  background-color: #d3dee7;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .10);
+  border-radius: 10px;
+  /*If you only have 1 value, this will be placed on all 4 corners. You can add a total of 4 values if you want to add different values to each corner (border-radius: 10px 10px 10px 10px;) This works in a clockwise rotation.*/
+
+  /*To create eliptical rounding, you'll need to add "/" inbetween the values (ex. border-radius: 10px(vertical radius)/25px(horizontal radius);)*/
+}
+
+.box-c {
   text-align: center;
   background-color: #CCC;
   width: 200px;
@@ -26,4 +43,16 @@ html, body {
   line-height: 200px;
   margin-bottom: 40px;
   margin-left: 40px;
+  border-radius: 100px;
+  /*the border-radius should take up half of the available width and height*/
+}
+
+.box-d {
+  text-align: center;
+  background-color: #444;
+  color: #FFF;
+  width: 350px;
+  height: 200px;
+  line-height: 200px;
+  margin-bottom: 40px;
 }
