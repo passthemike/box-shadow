@@ -1,0 +1,29 @@
+html, body {
+  background-color: #FFF;
+}
+
+.box-a {
+  width: 400px;
+  height: 200px;
+  background-color: #e7eff5
+  padding: 20px 20px 0 20px;
+  border: 2px solid #d3dee7;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+  /*box-shadow has 4 values. First 2 values control the positioning. 1st-Horizontal, 2nd- Vertical, 3rd-Blur Radius , 4th-Color of Shadow */
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, .15);
+  /*Howizontal and Vertical offset can push the shadow to the right or bottom. If you use negative values (-10px) then the shadow can shift to the top or to the left*/
+
+  /*to add a shadow on the inside of the box, all you have to do is add "inset" (inner shadow). If you want the shadow on the outside and on the inside, all you have to do is copy and paste the same 4 values and for one of them you will add "inset" in front of those values. These need to be added into 1 value. All you need to do is add a comma inbetween the 4 values. */
+}
+
+.box-b {
+  text-align: center;
+  background-color: #CCC;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
